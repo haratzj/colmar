@@ -1,0 +1,278 @@
+/* START */
+
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #353535;
+}
+
+body {
+  line-height: 1.2;
+}
+
+
+
+/* HEADER */
+
+header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+header > img {
+  margin-left: 1.5rem;
+  margin-right: 0.5rem;
+}
+header > nav {
+  margin-right: 1rem;
+}
+
+header div.companyname {
+  font-size: 2rem;
+  flex-grow: 1;
+  line-height: 1;
+}
+
+#colmar {
+  font-weight: bold;
+}
+
+#academy {
+  font-weight: 100;
+}
+
+header nav span {
+  margin: 0 0.5rem;
+}
+
+
+/* MAIN */
+
+div.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+div.coloring:nth-child(2n+1){
+  background-color: hsla(0, 0%, 85%, 1);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+div.left {
+  margin: 2rem 1.5rem;
+  width: 60%;
+}
+
+div.right {
+  width: 40%;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* First BOX */
+
+div.left img{
+  width: 100%;
+}
+
+#firstbox>div.right>h1,
+#firstbox>div.right>h4,
+#firstbox>div.right>div.btn {
+  margin: 1rem 0;
+  width: 75%;
+}
+
+#firstbox>div.right>div.btn {
+  max-width: 50%;
+  background-color: #4A4A4A;
+  padding: 0.5rem 0;
+  text-align: center;
+  color: white;
+}
+
+#firstbox>div.right {
+  justify-content: center;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 1.5rem;
+
+}
+
+/*Second Box */
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1;
+  margin: 2rem 0 1.5rem 0;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.right .content {
+  display: flex;
+  width: 100%;
+  margin-bottom: 0.2rem;
+}
+
+#secondbox .content {
+  border: 1px solid hsla(0, 0%, 90%, 1);
+}
+
+#secondbox div.left span{
+  display: block;
+  margin-top: 2rem;
+}
+
+div.right {
+  justify-content: flex-start;
+}
+
+.right .content .imgbox {
+  width: 35%;
+  height: auto;
+  margin: 1rem 1.5rem 1rem 1rem;
+  flex-shrink: 0;
+}
+
+.right .content .imgbox img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#lecturerbox {
+  background-color: hsla(0, 0%, 85%, 1);
+}
+
+div.infobox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 2rem;
+  width: 65%;
+}
+
+div.infobox p {
+  margin: 0.5rem 0;
+  font-weight: 100;
+  line-height: 1.5;
+}
+div.infobox span {
+  font-size: 0.8rem;
+  color: hsla(215, 65%, 50%, 1);
+}
+
+
+#secondbox div.left {
+  margin: 0;
+  padding: 2rem 1.5rem;
+  border-right: 1px solid hsla(0, 0%, 90%, 1);
+}
+
+/*3333333333 Third Box3 3333333 */
+
+div.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+div.vertical>h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#thirdbox div.container div.left>h4{
+  margin: 1.5rem 0 0.5rem 0;
+  font-weight: bold;
+}
+
+#fisma {
+  background-color: hsla(0, 0%, 85%, 1);
+}
+
+div.container div.left>p{
+  width: 90%;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+div.left video {
+  width: 100%;
+}
+
+
+
+/* 4444444444444444 Fourth BOx 444444444 */
+
+#fourthbox div.courses {
+  display: flex;
+  margin: 0 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+div.course {
+  width: 25%;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+div.course div.courseimg img {
+  display: block;;
+  width: 100%;
+}
+
+div.course div.coursetxt {
+  padding: 1rem;
+  background-color: white;
+  font-weight: 100;
+  flex-grow: 1;
+}
+
+div.course div.coursetxt h3 {
+  margin-bottom: 1rem;
+}
+
+div.course div.coursetxt p {
+  width: 90%;
+  margin-top: 0.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+/* Footer */
+
+footer {
+  border-top: 1px solid hsla(0, 0%, 90%, 1);
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  font-weight: 100;
+}
+footer div.terms span {
+  margin: 0.5rem;
+}
