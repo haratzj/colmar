@@ -64,12 +64,17 @@ header nav span {
   display: none;
 }
 
+header > nav > span:hover {
+  font-style: italic;
+  color: black;
+}
 
 
 @media only screen and (max-width: 450px) {
   header>div.companyname,
   header>nav {
     display: none;
+
   }
 
   #logo-campus,
@@ -142,6 +147,15 @@ div.left img{
   padding: 0.5rem 0;
   text-align: center;
   color: white;
+  transition: background-color 0.3s linear 0s;
+  transition: border-radius 0.2s linear 0s;
+}
+
+#firstbox>div.right>div.btn:hover {
+  background-color: hsla(241, 88%, 14%, 1);
+  border: 1px solid hsla(241, 88%, 14%, 1);
+  border-radius: 8px;
+  font-weight: bold;
 }
 
 #firstbox>div.right {
@@ -269,6 +283,12 @@ div.infobox span {
 #lecturemobile {
   display: none;
 }
+
+span.rm:hover {
+  font-weight: bold;
+  font-style: italic;
+}
+
 
 @media only screen and (max-width: 1200px) {
   #lecturerbox>div.infobox>h3 {
@@ -451,6 +471,10 @@ div.course div.coursetxt p {
   margin-top: 0.5rem;
   line-height: 1.5;
   margin-bottom: 0.5rem;
+}
+
+div.course:hover {
+  border: 3px ridge hsla(0, 0%, 60%, 1);
 }
 
 @media only screen and (max-width: 1040px){
