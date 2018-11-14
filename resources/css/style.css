@@ -1,8 +1,48 @@
+/* @font-face {
+  font-family: "FiraSans";
+  src: url("../fonts/fira_sans/FiraSans-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "FiraSans";
+  src: url("../fonts/fira_sans/FiraSans-Bold.ttf") format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "FiraSans";
+  src: url("../fonts/fira_sans/FiraSans-BoldItalic.ttf") format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "FiraSans";
+  src: url("../fonts/fira_sans/FiraSans-Italic.ttf") format('truetype');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "FiraSans";
+  src: url("../fonts/fira_sans/FiraSans-Light.ttf") format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "FiraSans";
+  src: url("../fonts/fira_sans/FiraSans-LightItalic.ttf") format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+*/
+
+/*Hi I tried to add local fonts, but I failed - can you tell me where i went wrong? thanks.*/
+
 /* START */
 
 html {
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: "Fira Sans", sans-serif;
   color: #353535;
 }
 
